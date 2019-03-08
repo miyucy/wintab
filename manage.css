@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.window-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.window-item {
+  border: 1px black solid;
+  display: inline-block;
+  align-self: flex-start;
+  margin: 8px;
+}
+
+.window-control {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.tab-list {
+  padding: 8px;
+}
+
+.tab-item {
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.tab-control {
+  display: flex;
+  justify-content: flex-end;
+}
